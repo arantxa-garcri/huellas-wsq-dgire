@@ -4,16 +4,29 @@
 # Proyecto: procesamiento masivo de huellas WSQ para DGIRE (V2)
 # Archivo: corregir_huellas_dgire.py
 # Autoría: Arantxa GC
+# Copyright (C) 2026 Arantxa GC
 # Asistencia de desarrollo y documentación: ChatGPT / Codex (OpenAI)
 # Fecha de creación: 2026-09-24
-# Uso libre: se permite usar, copiar, modificar y compartir este script
-# para quien lo necesite, con o sin fines comerciales.
-# Este permiso corresponde al script; las dependencias conservan sus licencias.
-# Se proporciona sin garantía de aceptación institucional o calidad biométrica.
+# SPDX-License-Identifier: GPL-3.0-only
 #
-# Objetivo: localizar la huella, recortar sin escalar y generar un WSQ validado.
+# Este programa es software libre: puede redistribuirse y modificarse
+# bajo los términos de la Licencia Pública General de GNU, versión 3,
+# publicada por la Free Software Foundation.
+#
+# Se distribuye con la intención de que resulte útil, pero SIN NINGUNA
+# GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o
+# IDONEIDAD PARA UN PROPÓSITO PARTICULAR.
+#
+# Consulte el archivo LICENSE para conocer los términos completos.
+# Si no recibió una copia de la licencia, puede consultarla en:
+# https://www.gnu.org/licenses/gpl-3.0.html
+#
+# Las dependencias conservan sus respectivas licencias.
+#
+# Objetivo: localizar la huella, recortar sin escalar y generar un WSQ
+# que supere los controles técnicos implementados.
 # Uso: python3 corregir_huellas_dgire.py "/ruta/a/1010"
-# Requiere: Pillow, NumPy y python-wsq con los parches descritos en README.md.
+# Requiere: Pillow, NumPy y python-wsq con los parches del README.md.
 #
 # Respaldar los originales y las salidas V2 antes de cada ejecución.
 # No modificar originales ni escalar las huellas para forzar su aceptación.
