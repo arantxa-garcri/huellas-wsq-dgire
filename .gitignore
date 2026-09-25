@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lotes y datos biométricos
+1010/
+*.[wW][sS][qQ]
+HUELLAS_DIGITALES_CORREGIDAS*/
+REPORTE_HUELLAS_DGIRE*.csv
+RESUMEN_PERSONAS_DGIRE*.csv
+
+# Respaldos y archivos de macOS
+*.backup
+.DS_Store
